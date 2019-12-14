@@ -1,0 +1,338 @@
+@media (min-width: 375px) and (orientation: portrait) {
+    header p {
+        &:nth-of-type(1) {
+            left: 85px;
+            top: 29px;
+        }
+
+        &:nth-of-type(2) {
+            left: 220px;
+            top: 30px;
+        }
+    }
+
+    main .menu {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+
+    header i {
+        opacity: 0;
+        padding: 0;
+    }
+
+    header nav {
+
+        width: 100%;
+        top: 10px;
+        right: 0;
+
+        ul {
+            display: flex;
+
+            li a {
+                font-size: 25px;
+            }
+        }
+    }
+
+    header div {
+
+        h1 {
+            font-size: 85px;
+            font-family: 'Monoton', cursive;
+        }
+
+        h2 {
+            font-size: 25px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    main {
+        width: 100%;
+
+        .about {
+            width: 100%;
+
+            article {
+                display: flex;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 35px;
+                padding: 60px 0 30px 0;
+
+            }
+
+            img {
+                width: 50%;
+                height: 50%;
+                padding: 15px;
+                align-self: center;
+            }
+        }
+    }
+
+    main .menu h2 {
+        font-size: 35px;
+        padding: 40px 0;
+    }
+
+    main .contact h2 {
+        font-size: 35px;
+        padding: 40px 0;
+    }
+
+
+    main .contact-wrap {
+        display: flex;
+        width: 100%;
+        font-size: 23px;
+
+        .icons i {
+            padding: 16px;
+            line-height: 23px;
+        }
+
+
+        p {
+            padding: 12px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+
+    header nav ul li a {
+        font-size: 30px;
+
+        &:hover {
+            padding: 5px 15px;
+            border-radius: 5%;
+            color: black;
+            background-color: gold;
+            text-shadow: none;
+        }
+    }
+
+    header div {
+
+        h1 {
+            font-size: 125px;
+            font-family: 'Monoton', cursive;
+        }
+
+        h2 {
+            font-size: 35px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    main .about {
+        p {
+            align-self: center;
+        }
+
+        img {
+            padding: 30px;
+        }
+    }
+
+    main .contact-wrap {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+
+    header i {
+        opacity: 0;
+        padding: 0;
+    }
+
+    header nav {
+
+        width: 100%;
+        top: 10px;
+        right: 0;
+
+        ul {
+            display: flex;
+
+            li a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    header div {
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Monoton', cursive;
+        }
+
+        h2 {
+            font-size: 15px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    main {
+        width: 100%;
+
+        .about {
+            width: 100%;
+
+            article {
+                display: flex;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 25px;
+                padding: 60px 0 30px 0;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            img {
+                align-self: center;
+                width: 50%;
+                height: 50%;
+                padding: 15px;
+            }
+        }
+    }
+
+    main .menu h2 {
+        font-size: 25px;
+        padding: 40px 0;
+    }
+
+    main .contact h2 {
+        font-size: 25px;
+        padding: 40px 0;
+    }
+
+    main .contact-wrap {
+        display: flex;
+        width: 100%;
+        font-size: 18px;
+
+        .icons i {
+            padding: 12px;
+            line-height: 23px;
+        }
+
+        p {
+            padding: 12px;
+        }
+    }
+}
+
+@media (min-width: 731px) and (orientation: landscape) {
+
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+    main {
+        width: 100%;
+
+        .about p {
+            font-size: 14px;
+            align-self: center;
+        }
+    }
+
+    header div {
+
+        h1 {
+            font-size: 60px;
+            font-family: 'Monoton', cursive;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+
+    header nav ul li a {
+        font-size: 20px;
+
+        &:hover {
+            padding: 5px 15px;
+            border-radius: 5%;
+            color: black;
+            background-color: gold;
+            text-shadow: none;
+        }
+    }
+
+    header div {
+
+        h1 {
+            font-size: 100px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    main {
+        width: 100%;
+
+        .about {
+            width: 100%;
+
+            article {
+                display: flex;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 35px;
+                padding: 60px 0 30px 0;
+            }
+
+            p {
+                font-size: 18px;
+                align-self: center;
+            }
+
+            img {
+
+                width: 50%;
+                height: 50%;
+                padding: 30px;
+            }
+        }
+    }
+
+    main .menu h2 {
+        font-size: 35px;
+        padding: 40px 0;
+    }
+
+    main .contact h2 {
+        font-size: 35px;
+    }
+
+    main .contact-wrap {
+        font-size: 22px;
+
+    }
+}

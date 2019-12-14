@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Dancing Script', cursive;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Photos/coffee2.jpg);
+  background-size: cover;
+  background-position: 55% 50%;
+  position: relative;
+}
+
+header i {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  font-size: 45px;
+  color: gold;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+header nav {
+  position: absolute;
+  width: 100%;
+  top: -190px;
+  right: 0;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+header nav.on {
+  top: 70px;
+}
+
+header nav ul {
+  width: 100%;
+  list-style: none;
+}
+
+header nav ul li {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  line-height: 7vh;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  color: gold;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 40px;
+  text-shadow: 3px 3px black;
+  background-color: rgba(84, 47, 7, 0.4);
+  text-align: center;
+  font-size: 30px;
+  color: gold;
+  font-weight: light;
+}
+
+header div h1 {
+  font-size: 65px;
+  font-family: 'Monoton', cursive;
+}
+
+header div h2 {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  width: 100%;
+  background-color: black;
+}
+
+main .about {
+  width: 100%;
+  background-color: black;
+  color: gold;
+}
+
+main .about h2 {
+  padding: 60px 0 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Monoton', cursive;
+}
+
+main .about p {
+  padding: 15px;
+  margin: 0 10px 15px 10px;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main .about img {
+  width: 100%;
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
+
+main .menu {
+  min-height: 100vh;
+  background-color: black;
+  color: gold;
+}
+
+main .menu h2 {
+  padding: 25px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Monoton', cursive;
+}
+
+main .menu img {
+  width: 100%;
+}
+
+main .contact {
+  padding-bottom: 40px;
+  background-color: black;
+  color: gold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main .contact h2 {
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Monoton', cursive;
+}
+
+main .contact-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main .contact-wrap .icons {
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .contact-wrap .icons i {
+  padding: 10px;
+  line-height: 23px;
+}
+
+main .contact-wrap p {
+  padding: 12px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: gold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */

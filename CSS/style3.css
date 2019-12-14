@@ -1,0 +1,23 @@
+@-webkit-keyframes slider {
+  0% {
+    background-image: url(../Photos/coffee2.jpg);
+  }
+  50% {
+    background-image: url(../Photos/morning-819362_1280.jpg);
+  }
+  100% {
+    background-image: url(../Photos/coffee2.jpg);
+  }
+}
+@keyframes slider {
+  0% {
+    background-image: url(../Photos/coffee2.jpg);
+  }
+  50% {
+    background-image: url(../Photos/morning-819362_1280.jpg);
+  }
+  100% {
+    background-image: url(../Photos/coffee2.jpg);
+  }
+}
+/*# sourceMappingURL=style3.css.map */
